@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_homepage"
+            android:title="Home" />
+
+
+
+        <item
+            android:id="@+id/nav_branch"
+            android:icon="@drawable/icon_profile"
+            android:title="Manage Branches"
+            android:visible="true" />
+
+
+        <item
+            android:id="@+id/nav_hourly_wise"
+            android:icon="@drawable/icon_profile"
+            android:title="Hourly wise Attendance"
+            android:visible="true" />
+
+
+        <item
+            android:id="@+id/nav_day_wise"
+            android:icon="@drawable/icon_profile"
+            android:title="Day wise Attendance"
+            android:visible="true" />
+
+
+
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profile"
+            android:title="Profile"
+            android:visible="false" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
